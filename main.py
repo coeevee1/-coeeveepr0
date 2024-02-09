@@ -55,6 +55,7 @@ for c in ['red', 'green', 'yellow', 'blue']:
         t.circle(x, x)
         t.forward(x)
         t.circle(x)
+        t.forward(x)
         Estop = Estop - 1
         if Estop == 1:
                 print("would you like to continue if so enter how many times")
